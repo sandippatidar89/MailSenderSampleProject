@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var nodemailer = require("nodemailer");
 
 // create reusable transport method (opens pool of SMTP connections)
@@ -62,4 +61,3 @@ smtpTransport.sendMail(mailOptions, function(error, response){
     // if you don't want to use this transport object anymore, uncomment following line
     //smtpTransport.close(); // shut down the connection pool, no more messages
 });
->>>>>>> 24c89a2a2bfc3e10eb5a122d715fd2b8ad80dfbb
