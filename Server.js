@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var express=require('express');
 var nodemailer = require("nodemailer");
 var app=express();
@@ -100,4 +99,3 @@ app.get('/send',function(req,res){
 app.listen(3000,function(){
 	console.log("Express Started on Port 3000");
 });
->>>>>>> 24c89a2a2bfc3e10eb5a122d715fd2b8ad80dfbb
